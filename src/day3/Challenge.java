@@ -45,7 +45,7 @@ public class Challenge {
         boolean isAdjacentToSymbol;
         char[] aboveLine = null;
         char[] currentLine = scanner.hasNextLine() ? scanner.nextLine().toCharArray() : null;
-        char[] belowLine = null;
+        char[] belowLine;
         int currentLineNumber = 0;
 
         while (currentLine != null) {
