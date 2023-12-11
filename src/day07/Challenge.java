@@ -1,10 +1,10 @@
-package day7;
+package day07;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
 
-import static day7.CardType.*;
+import static day07.CardType.*;
 
 public class Challenge {
     private static Integer cardRank(String hand, boolean isChallenge1) {

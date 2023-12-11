@@ -1,10 +1,10 @@
-package day5;
+package day05;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
 
-import static day5.ChallengePart1.populateMap;
+import static day05.ChallengePart1.populateMap;
 
 public class ChallengePart2 {
     // Instead of finding the lowest location per individual seed, a range of seed is used
