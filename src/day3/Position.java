@@ -3,19 +3,38 @@ package day3;
 import java.util.Objects;
 
 public class Position {
-    int lineNumber;
-    int index;
+    private int row;
+    private int column;
 
-    public Position(int lineNumber, int index) {
-        this.lineNumber = lineNumber;
-        this.index = index;
+    public Position(int row, int column) {
+        this.row = row;
+        this.column = column;
+    }
+
+    public Position() {
+    }
+
+    public int getRow() {
+        return row;
+    }
+
+    public int getColumn() {
+        return column;
+    }
+
+    public void setRow(int row) {
+        this.row = row;
+    }
+
+    public void setColumn(int column) {
+        this.column = column;
     }
 
     @Override
     public String toString() {
         return "Position{" +
-                "lineNumber=" + lineNumber +
-                ", index=" + index +
+                "lineNumber=" + row +
+                ", index=" + column +
                 '}';
     }
 
@@ -24,11 +43,11 @@ public class Position {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Position position = (Position) o;
-        return lineNumber == position.lineNumber && index == position.index;
+        return row == position.row && column == position.column;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(lineNumber, index);
+        return Objects.hash(row, column);
     }
 }
