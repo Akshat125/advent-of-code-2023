@@ -40,7 +40,7 @@ public class Challenge {
         // Challenge 1
         int stepsChallenge1 = 0;
         String currentNode = "AAA";
-        Graph.Pair adjNodes = graph.getAdjacentNodes(currentNode);
+        Pair<String, String> adjNodes = graph.getAdjacentNodes(currentNode);
 
         for (int i = 0; i < directions.length; i++) {
             if (adjNodes == null) {
