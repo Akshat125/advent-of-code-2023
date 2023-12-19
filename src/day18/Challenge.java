@@ -57,6 +57,6 @@ public class Challenge {
         long tilesEnclosedByLoop = area - countExternalNodes / 2 + 1;
         long totalTiles = tilesEnclosedByLoop + countExternalNodes;
 
-        System.out.println("It can hold following cubic centimeters of lava: " + totalTiles);
+        System.out.println("It can hold the following cubic centimeters of lava: " + totalTiles);
     }
 }
