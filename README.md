@@ -25,10 +25,10 @@
 | 17  | [Clumsy Crucible](https://adventofcode.com/2023/day/17)                | ⭐      | ⭐      |
 | 18  | [Lavaduct Lagoon](https://adventofcode.com/2023/day/18)                | ⭐      | ⭐      |
 | 19  | [Aplenty](https://adventofcode.com/2023/day/19)                        | ⭐      | ⭐      |
-| 20  |                                                                        | ❌      | ❌      |
-| 21  |                                                                        | ❌      | ❌      |
-| 22  |                                                                        | ❌      | ❌      |
-| 23  |                                                                        | ❌      | ❌      |
-| 24  |                                                                        | ❌      | ❌      |
-| 25  |                                                                        | ❌      | ❌      |
+| 20  | [Pulse Propagation](https://adventofcode.com/2023/day/20)              | ❌      | ❌      |
+| 21  | [Step Counter](https://adventofcode.com/2023/day/21)                   | ⭐      | ⭐      |
+| 22  | [TBA](https://adventofcode.com/2023/day/22)                            | ❌      | ❌      |
+| 23  | [TBA](https://adventofcode.com/2023/day/23)                            | ❌      | ❌      |
+| 24  | [TBA](https://adventofcode.com/2023/day/24)                            | ❌      | ❌      |
+| 25  | [TBA](https://adventofcode.com/2023/day/25)                            | ❌      | ❌      |
 
