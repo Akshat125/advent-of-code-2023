@@ -104,7 +104,6 @@ public class Challenge {
         }
 
         // Challenge 1
-
         List<Part> parts = new ArrayList<>();
         while (scanner.hasNextLine()) {
             input = scanner.nextLine();
