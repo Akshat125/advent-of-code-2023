@@ -16,5 +16,16 @@ sourceSets {
         }
     }
 }
+
 dependencies {
+    implementation 'org.jgrapht:jgrapht-core:1.5.1'
+}
+
+// Generate tasks for each day
+(1..25).each { day ->
+    String dayFormatted = String.format("%02d", day)
+    tasks.create(name: "runDay${dayFormatted}", type: JavaExec) {
+        main = "day${dayFormatted}.Challenge"
+        classpath = sourceSets.main.runtimeClasspath
+    }
 }
