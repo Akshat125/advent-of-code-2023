@@ -6,7 +6,7 @@ import java.util.*;
 
 import static day05.ChallengePart1.populateMap;
 
-public class ChallengePart2 {
+public class Challenge {
     // Instead of finding the lowest location per individual seed, a range of seed is used
     static long getLowestLocationForSeeds(Map<Range, Range>[] maps, List<Range> seeds) {
         long intersectionStart;

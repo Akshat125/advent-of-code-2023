@@ -4,7 +4,6 @@ import day03.Position;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.math.BigInteger;
 import java.util.*;
 
 public class Challenge {
@@ -13,9 +12,9 @@ public class Challenge {
         List<List<Character>> map = new ArrayList<>();
         List<Character> mapRow;
         Position startPosition = new Position();
-        char[] input;
 
         int row = 0;
+        char[] input;
         while (scanner.hasNextLine()) {
             mapRow = new ArrayList<>();
             input = scanner.nextLine().toCharArray();

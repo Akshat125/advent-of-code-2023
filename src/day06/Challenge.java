@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class ChallengePart2 {
+public class Challenge {
 
     public static void main(String[] args) throws FileNotFoundException {
         Scanner scanner = new Scanner(new File("src/resources/day6Input.txt"));

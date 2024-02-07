@@ -17,7 +17,7 @@ public class Challenge {
         return Math.abs(num1 * num2) / gcd(num1, num2);
     }
 
-    private static long lcm(long[] nums) {
+    public static long lcm(long[] nums) {
         long result = 1;
         for (int i = 0; i < nums.length; i++) {
             result = lcm(nums[i], result);
